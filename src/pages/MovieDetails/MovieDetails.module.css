@@ -1,0 +1,97 @@
+.img {
+  width: 400px;
+  margin-right: 20px;
+}
+.title {
+  color: darkslategrey;
+}
+.container {
+  display: flex;
+  border-bottom: 1px solid #2a363b;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+.button {
+  display: block;
+  border: none;
+  width: 80px;
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.button:hover {
+  color: darkslategrey;
+  font-weight: 600;
+}
+.movieDetails {
+  flex-direction: column;
+}
+.infoList {
+  margin-bottom: 20px;
+}
+
+.infoItem {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.infoItem:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.infoText {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.33;
+  flex-basis: calc(100% / 2);
+}
+.infoName {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.33;
+  flex-basis: calc(100% / 2);
+  color: #8c8c8c;
+}
+
+.spanVote {
+  display: inline-block;
+  width: 36px;
+  height: 16px;
+  border-radius: 5px;
+  background-color: darkslategrey;
+  color: black;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.spanSlash {
+  color: black;
+}
+
+.spanVotes {
+  display: inline-block;
+  width: 36px;
+  height: 16px;
+  border-radius: 5px;
+  padding: 3px;
+  background-color: darkslategrey;
+  line-height: 1.17;
+  text-align: center;
+}
+.navLink {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.navLink:hover {
+  color: darkslategrey;
+}
+
+.item {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+}

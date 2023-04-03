@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  min-height: 80px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #2a363b;
+  font-size: 20px;
+  color: #e5e5e5;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
